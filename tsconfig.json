@@ -17,9 +17,7 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es2015",
-    "types": [
-      "jest"
-    ]
+    "types": []
   },
   "exclude": [
     "coverage",
