@@ -1,0 +1,28 @@
+{
+  "author": "Greg Bacchus",
+  "dependencies": {
+    "typeorm": "^0.2.14"
+  },
+  "description": "Custom repository provider for TypeORM in NestJS",
+  "keywords": [
+    "nestjs",
+    "typeorm",
+    "provider",
+    "custom",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "typeorm-repository-provider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregbacchus/typeorm-repository-provider.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && npx tsc -p tsconfig.build.json",
+    "postpublish": "git push",
+    "prepublishOnly": "npm run build && npm version patch"
+  },
+  "types": "./src/index.ts",
+  "version": "1.0.0"
+}
