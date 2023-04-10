@@ -1,7 +1,7 @@
 {
   "author": "Greg Bacchus",
   "dependencies": {
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.3.14"
   },
   "description": "Custom repository provider for TypeORM in NestJS",
   "keywords": [
